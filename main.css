@@ -1,14 +1,84 @@
-@media screen and (max -width : 481px)
-body 
-{
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  padding : 1%;
-  place-items: grid;
+ 
+/* Default styles for all devices */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin :0 0;
 }
+ 
+/* Styles for small screens */
+
+@media only screen and (max-width: 400px) {
+  body{
+    background-color: rgb(5, 4, 4);
+     
+    display: block;
+    font-size: 14px;
+    height: 1091px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 100%;
+    min-width: 1024px;
+    padding : 0 0;
+    width: 1024px
+  }
+
+  #Header{
+    width : 100%;
+    flex-basis: 100%;
+    background-color: #050505;
+  }
+
+  #Header img
+  {
+    width: 100px;
+  }
+  #navbar
+  {
+    width: 100%;
+  background-color: #090808;
+  display: flex;
+  align-items:center;
+  padding: 0;
+  height: 640px;
+   
+  }
+
+  #navbar li{
+    padding: 0 9px;
+
+  }
+
+  #Header div3{
+    margin-right : 10px; 
+
+  }
+  #Header div1
+{
+   width: 25%;
+
+}
+
+  #navbar li a{
+    
+  font-size: 7px;
+  font-weight: 250;
+   
+  
+
+  }
+}
+
 
 #Header 
 {
+
   background-color: #050505;
   display:flex;
   align-items:center;
@@ -16,60 +86,60 @@ body
   margin: 0 0;
   padding: 0;
   box-shadow: 0 0px 0px rgb(0,0,0,0);
-  height: 13vh;
+ 
+  width : 100%;
+  
 }
 
 #Header img
 {
-  width : 100%;
+
   height: 18vh;
   margin: 0 0 0 0;
   padding-top: 0;
+  width: 20%;
 }
 
-#Header div2
+#Header div1
 {
-    width: 30%;
-  
+  width: 50%;
+  padding : 0 40px;
 }
 
-#Header div2 img
+ 
+#Header div3
 {
-   height: 7vh;
+  margin-right: 100px;
+  padding : 0 0;
 
 }
-
 
 #navbar
 {
-  background-color: #0a0909;
+  width: 100;
+  background-color: #0d0c0c;
   display: flex;
   align-items:center;
-  justify-content:right;
-  padding: 0px;
-   
-
+  padding: 0;
+  height: auto;
+  margin : 0; 
 }
 
-#navbar div3
-{margin: 0 0;
-  width: 100%;
-}
+
  
 #navbar li
 {
   list-style: none;
   padding: 0 18px;
-  
-  
+
 }
  
 #navbar li a
 {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 550;
-  color:#d6c50d;
+  color:#f0f010;
   transition: 0.3s ease;
 }
 
